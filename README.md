@@ -1,5 +1,5 @@
 # Medicinal_leaf_identification
-
+Download link  for dataset :https://www.kaggle.com/datasets/vishnuoum/medicinal-plant-dataset-augmented.
 --
 
 ## Overview
@@ -33,23 +33,17 @@ The dataset consist of only 30 different classes of plant leaf.
 
    ```bash
    git clone https://github.com/devikamallik/Medicinal_leaf_identification.git
-   cd medicinal_leaf_recognition
+   cd Medicinal_leaf-identification
    ```
 
-2. **Install Required Packages**
-
-   It's recommended to create a virtual environment first. Here’s how you can do it:
-
-   
+2. **Install Required Packages** 
 
    Then install the necessary packages:
 
    ```bash
    pip install -r requirements.txt
    ```
-
    `requirements.txt` should include necessary libraries like TensorFlow, Streamlit, and other dependencies.
-
 
 
 ### Running the Application
@@ -66,7 +60,7 @@ The dataset consist of only 30 different classes of plant leaf.
 
    - Open your browser and go to `http://localhost:8501` to access the Streamlit interface.
    - Upload an image of a leaf using the file uploader.
-   - View the classification results which include the predicted plant class and additional information if available.
+   - View the classification results which include the predicted plant class and medicinal properties along with its allergies.
 
 ## Model Training and Evaluation
 
@@ -81,18 +75,11 @@ The dataset consist of only 30 different classes of plant leaf.
 - **Validation**: Cross-validation and test set evaluations are performed to ensure robustness.
 
 ## Contributing
-
-Contributions are welcome! If you have suggestions, improvements, or bug fixes, please create a pull request or open an issue.
-
-
-
+Contributions are welcome! If you have suggestions, improvements, or bug fixes, please create a pull request or open an issue
 
 ## Acknowledgments
 
 - **MobileNetV2**: For efficient and accurate image classification.
 - **Streamlit**: For an easy-to-use web framework for machine learning applications.
-- **Dataset Providers**: For providing the dataset of medicinal plant leaves
-download link  for dataset :https://www.kaggle.com/datasets/vishnuoum/medicinal-plant-dataset-augmented.
-
----# medicinal_leaf_identification
-# medicinal-leaf-identification
+- **Dataset Providers**: For providing the dataset of medicinal plant leaves.
+---
