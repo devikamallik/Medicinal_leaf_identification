@@ -32,7 +32,7 @@ The dataset consist of only 30 different classes of plant leaf.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/devikamallik/medicinal_leaf_identification.git
+   git clone https://github.com/devikamallik/Medicinal_leaf_identification.git
    cd medicinal_leaf_recognition
    ```
 
