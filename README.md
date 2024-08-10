@@ -55,10 +55,7 @@ The dataset consist of only 30 different classes of plant leaf.
    ```bash
    streamlit run app.py
    ```
-
 2. **Interact with the Application**
-
-   - Open your browser and go to `http://localhost:8501` to access the Streamlit interface.
    - Upload an image of a leaf using the file uploader.
    - View the classification results which include the predicted plant class and medicinal properties along with its allergies.
 
@@ -74,8 +71,6 @@ The dataset consist of only 30 different classes of plant leaf.
 - **Metrics**: The model’s performance is evaluated using accuracy, precision, recall, and F1-score metrics.
 - **Validation**: Cross-validation and test set evaluations are performed to ensure robustness.
 
-## Contributing
-Contributions are welcome! If you have suggestions, improvements, or bug fixes, please create a pull request or open an issue
 
 ## Acknowledgments
 
